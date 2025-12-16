@@ -1,6 +1,6 @@
 ## 1. 初始智能体
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251216134103321.png" alt="image-20251216134103321" style="zoom:50%;" />
+<img src="https://github.com/DorriG/hello-agent/blob/main/chapter1/pics/1.png" alt="image-20251216134103321" style="zoom:50%;" />
 
 ### 1.1 什么是智能体？
 
@@ -34,7 +34,7 @@
 
 **LLM智能体：** 通过在海量数据上的预训练，获得了隐式的世界模型与强大的涌现能力，使其能够更灵活、更通用的方式应对复杂任务。
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251216224245772.png" alt="image-20251216224245772" style="zoom:50%;" />
+<img src="https://github.com/DorriG/hello-agent/blob/main/chapter1/pics/2.png" alt="image-20251216224245772" style="zoom:50%;" />
 
 > Eg：
 >
@@ -88,5 +88,6 @@
    - **符号主义：** 
 
      核心信念：智能源于对符号的逻辑操作。
+
 
      符号：人类可读的实体（词语、概念），操作则遵循严格的逻辑规则。
