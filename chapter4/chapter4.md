@@ -20,7 +20,7 @@ ReAct认识到思考与行动是相辅相成的。思考指导行动，行动的
 
 **ReAct的协同循环：**
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251218211721734.png" alt="image-20251218211721734" style="zoom:100%;" />
+<img src="https://github.com/DorriG/hello-agent/blob/main/chapter4/pics/1.png" alt="image-20251218211721734" style="zoom:100%;" />
 
 **适用的场景：**
 
@@ -384,7 +384,7 @@ if __name__ == '__main__':
 
 **工作流：**
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251218224251233.png" alt="image-20251218224251233" style="zoom:1000%;" />
+<img src="https://github.com/DorriG/hello-agent/blob/main/chapter4/pics/2.png" alt="image-20251218224251233" style="zoom:1000%;" />
 
 **应用场景：**
 
@@ -600,7 +600,7 @@ if __name__ == '__main__':
    - **遗漏信息**：是否忽略了问题的某些关键约束或方面？ 根据评估，它会生成一段结构化的**反馈 (Feedback)**，指出具体的问题所在和改进建议。
 3. **优化 (Refinement)**：最后，智能体将“初稿”和“反馈”作为新的上下文，再次调用大语言模型，要求它根据反馈内容对初稿进行修正，生成一个更完善的“修订稿”。
 
-<img src="C:\Users\tingting\AppData\Roaming\Typora\typora-user-images\image-20251218225257644.png" alt="image-20251218225257644" style="zoom:100%;" />
+<img src="https://github.com/DorriG/hello-agent/blob/main/chapter4/pics/3.png" alt="image-20251218225257644" style="zoom:100%;" />
 
 #### 4.3.2 案例设定于记忆模块设计
 
@@ -1145,4 +1145,5 @@ e. 如果判断决策存在一定争议（自我置信度低于阈值），能�
 - 你会选择本章的哪种范式（或哪些范式的组合）作为系统的核心架构？
 - 这个系统需要哪些工具？请列出至少3个工具及其功能描述。
 - 如何设计提示词来确保智能体的决策既符合公司利益，又能保持对用户的友好态度？
+
 - 这个产品上线后可能面临哪些风险和挑战？如何通过技术手段来降低这些风险？
